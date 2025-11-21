@@ -2055,10 +2055,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "If -12V  is not rquired, exclude:\nU2 MURATA NKE1212SC\nL1 58µF inductor\nC1 470nF capacitor\n\nIf -5V is not required, exclude:\nU3 RECOM R-78CK5.0-0.5\nC3 10µF capacitor"
+	(text_box "If -12V  is not rquired, exclude:\nU2 MURATA NKE1212SC\nL1 58µF inductor\nC1 470nF capacitor\nC7 100nF capacitor\n\nIf -5V is not required, exclude:\nU3 RECOM R-78CK5.0-0.5\nC3 10µF capacitor"
 		(exclude_from_sim no)
 		(at 107.95 64.77 0)
-		(size 35.56 19.05)
+		(size 35.56 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2094,6 +2094,26 @@
 			(justify left top)
 		)
 		(uuid "3bdb488c-4cd9-413d-888a-7f8c759217ca")
+	)
+	(text_box "Max. output current if using +12V 5A power supply:\n+5V  ... 4A\n-5V  ... 500ma\n+12V ... 400mA\n-12V ... 80ma\n"
+		(exclude_from_sim no)
+		(at 110.49 153.67 0)
+		(size 53.34 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4ac625de-ce5a-469b-b823-92a1bbaee2ff")
 	)
 	(text_box "Power Input\nUse a well-regulated 4-5A +12VDC power supply.\nExpects centre-postive polarity.\nMOSFET Q1 will block in case centre-negative is used.\nIf not required, bridge pins 2 (drain) and 3 (source)."
 		(exclude_from_sim no)
