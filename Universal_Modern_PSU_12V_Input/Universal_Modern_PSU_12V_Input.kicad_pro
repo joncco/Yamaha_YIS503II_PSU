@@ -188,7 +188,11 @@
       ],
       "track_widths": [
         0.0,
-        0.75
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Universal_Modern_PSU.kicad_pro",
+    "filename": "Universal_Modern_PSU_12V_Input.kicad_pro",
     "version": 3
   },
   "net_settings": {

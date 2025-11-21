@@ -1,6 +1,6 @@
 ﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Pins,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
 C1,1,470nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
-C2,1,10µF,C_Radial_D6.3mm_H7.0mm_P2.50mm,,,,tht,Polarized capacitor,,,,,
+C2,1,10µF,CP_Radial_D6.3mm_P2.50mm,,,,tht,Polarized capacitor,,,,,
 "C3, C4",2,100µF,CP_Radial_D8.0mm_P5.00mm,,,,tht,Polarized capacitor,,,,,
 C5,1,10µF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
 "C6, C7",2,100nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
