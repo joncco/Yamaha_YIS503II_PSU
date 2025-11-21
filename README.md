@@ -14,4 +14,6 @@ If the additional voltages are not required then they can be excluded from the b
 
 Prevents reverse-polarity source input with a MOSFET (can be excluded if not required).<br>
 
+The PCB measures 67x47mm and has M3 mounting holes in the corners.<br>
+
 ![3D image of PCB](/Universal_Modern_PSU_3D.png)
