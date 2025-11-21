@@ -2780,6 +2780,785 @@
 		)
 		(uuid "fecbddb3-03a0-4894-a284-c57b74c7fd54")
 	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 8.89 20.32 10.16 41.91)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Part"
+				(exclude_from_sim no)
+				(at 20.32 161.29 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "1f41b128-af06-4a06-889a-dcc4bb500f42")
+			)
+			(table_cell "Model"
+				(exclude_from_sim no)
+				(at 29.21 161.29 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "da40fce0-73f9-44bc-9157-31ae458c27be")
+			)
+			(table_cell "Make"
+				(exclude_from_sim no)
+				(at 49.53 161.29 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "e15146dc-47a2-4eec-ac3c-347a6c2a59c7")
+			)
+			(table_cell "Notes"
+				(exclude_from_sim no)
+				(at 59.69 161.29 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "3ca9bd3d-456c-4ffd-8845-36d7ca50cc1a")
+			)
+			(table_cell "Q1"
+				(exclude_from_sim no)
+				(at 20.32 163.83 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d93fffe8-e26c-41e4-9245-365c175bc0e1")
+			)
+			(table_cell "SUP53P06-20-E3"
+				(exclude_from_sim no)
+				(at 29.21 163.83 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e75745b5-058b-4a7a-8b34-f57a4ecdf2db")
+			)
+			(table_cell "VISHAY"
+				(exclude_from_sim no)
+				(at 49.53 163.83 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "acb3ced7-105a-475a-88f2-dec0032babb0")
+			)
+			(table_cell "Reverse polarity input protection"
+				(exclude_from_sim no)
+				(at 59.69 163.83 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2e1007e1-8748-40b3-b091-97069b10f6f8")
+			)
+			(table_cell "U1"
+				(exclude_from_sim no)
+				(at 20.32 166.37 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7b9c9418-1c16-41c2-9b1b-1931318a9fbd")
+			)
+			(table_cell "DFR0831"
+				(exclude_from_sim no)
+				(at 29.21 166.37 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "69643abd-6275-4bf9-9f21-d17ba5d26d94")
+			)
+			(table_cell "DFROBOT"
+				(exclude_from_sim no)
+				(at 49.53 166.37 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d699bdbf-95bd-4b14-bdb7-904be6ec96ba")
+			)
+			(table_cell "+12V to +5V regulator"
+				(exclude_from_sim no)
+				(at 59.69 166.37 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ca0f5bef-0d60-4029-a6e1-14d6ee50e27c")
+			)
+			(table_cell "U2"
+				(exclude_from_sim no)
+				(at 20.32 168.91 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8000f0c7-035b-4101-aeff-8d04aa2c3ae6")
+			)
+			(table_cell "NKE1212SC"
+				(exclude_from_sim no)
+				(at 29.21 168.91 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eed41aa4-820d-46f0-8a70-755060adcb33")
+			)
+			(table_cell "MURATA"
+				(exclude_from_sim no)
+				(at 49.53 168.91 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8a453ec8-18ba-4797-9f5d-eb75da84710d")
+			)
+			(table_cell "+12V to -12V regulator"
+				(exclude_from_sim no)
+				(at 59.69 168.91 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9b69153f-9fbe-42b3-a156-11b2c7db65c6")
+			)
+			(table_cell "U3"
+				(exclude_from_sim no)
+				(at 20.32 171.45 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a4c49b15-3811-49e5-925f-2ae8cb8f8d27")
+			)
+			(table_cell "R-78CK5.0-0.5"
+				(exclude_from_sim no)
+				(at 29.21 171.45 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4ba62277-4041-4b05-b102-e7c0b37a3189")
+			)
+			(table_cell "RECOM"
+				(exclude_from_sim no)
+				(at 49.53 171.45 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "99154a70-5eb5-45c7-bf6d-69cb276c92fb")
+			)
+			(table_cell "+12V to -5V regulator"
+				(exclude_from_sim no)
+				(at 59.69 171.45 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6b80f92e-a459-47fa-bae2-b599a7464798")
+			)
+			(table_cell "L1"
+				(exclude_from_sim no)
+				(at 20.32 173.99 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d96603ca-0ebe-42b5-a746-4ff6e1d341ff")
+			)
+			(table_cell "22R686C "
+				(exclude_from_sim no)
+				(at 29.21 173.99 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "130df56f-40e2-4e9f-bc09-34f2da2b16fe")
+			)
+			(table_cell "MURATA"
+				(exclude_from_sim no)
+				(at 49.53 173.99 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2af6eaeb-ca71-4e04-8d38-a3ad652d5e9d")
+			)
+			(table_cell "68µF inductor"
+				(exclude_from_sim no)
+				(at 59.69 173.99 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fba440bf-40d8-4fe8-95b5-c0d277402a6a")
+			)
+			(table_cell "C1"
+				(exclude_from_sim no)
+				(at 20.32 176.53 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9c85bfc0-0a3f-4265-9e89-af1834199996")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 29.21 176.53 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8f920647-9a53-430b-8b7f-f89cc6abfb39")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 49.53 176.53 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "09d27332-b01e-48ee-8115-d6f82c7b94d9")
+			)
+			(table_cell "470nF MLCC capacitor, P5.0mm"
+				(exclude_from_sim no)
+				(at 59.69 176.53 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ee74683f-cacf-439f-856b-3f6297d6c214")
+			)
+			(table_cell "C2"
+				(exclude_from_sim no)
+				(at 20.32 179.07 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7042d544-2e44-4210-b1e5-c687515d040d")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 29.21 179.07 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bdf0d663-c9d3-450f-b1ec-c8c001367e3c")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 49.53 179.07 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8da32e9c-a901-4479-b8a9-365422fcd231")
+			)
+			(table_cell "10µF electrolytic capacitor, P2.5mm"
+				(exclude_from_sim no)
+				(at 59.69 179.07 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "64b36f1e-d11c-45ff-9c24-2ef76ab705b9")
+			)
+			(table_cell "C3"
+				(exclude_from_sim no)
+				(at 20.32 181.61 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "75c5eede-5210-467a-b843-150bce4cd7c3")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 29.21 181.61 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8b55f28e-6afe-4eda-b137-be5ae3b10c49")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 49.53 181.61 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ac736d14-33d9-465e-8b7a-3b8a738d2ee3")
+			)
+			(table_cell "10µF electrolytic capacitor, P2.5mm"
+				(exclude_from_sim no)
+				(at 59.69 181.61 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eddff14b-f106-401c-975e-e2d9aa46dea0")
+			)
+			(table_cell "C4"
+				(exclude_from_sim no)
+				(at 20.32 184.15 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c832c128-509a-46a4-a22b-85648ab19e9a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 29.21 184.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6101b67a-e3dc-4187-b0ac-f263cc7883d6")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 49.53 184.15 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "64d1bb7c-ee77-4c5f-a78b-74ad25721347")
+			)
+			(table_cell "10µF electrolytic capacitor, P2.5mm"
+				(exclude_from_sim no)
+				(at 59.69 184.15 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ac8f0ce8-a759-408f-8a36-ccb4e3f5474a")
+			)
+			(table_cell "D1"
+				(exclude_from_sim no)
+				(at 20.32 186.69 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e0dda660-2654-408d-b610-fcbfcf3fee26")
+			)
+			(table_cell "LTH5MM12VFR4500"
+				(exclude_from_sim no)
+				(at 29.21 186.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "668afb2a-c1fb-4400-8c26-6a52e71df3d2")
+			)
+			(table_cell "VCC"
+				(exclude_from_sim no)
+				(at 49.53 186.69 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "72caad83-7134-4cc6-a007-bd6ca47af208")
+			)
+			(table_cell "12V (green) LED with in-built resistor"
+				(exclude_from_sim no)
+				(at 59.69 186.69 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "61102370-6bfd-4111-b14f-45d45313a800")
+			)
+		)
+	)
 	(label "+12V_{OUT}"
 		(at 100.33 121.92 0)
 		(effects
@@ -3162,7 +3941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC-DC Buck Converter"
+		(property "Description" "DFRobot DC-DC Buck Converter"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -3794,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 199.39 83.5152 0)
 			(effects
 				(font
@@ -3861,7 +4640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 203.2 128.5748 0)
 			(effects
 				(font
@@ -4007,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 176.53 99.3648 0)
 			(effects
 				(font
