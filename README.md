@@ -1,5 +1,5 @@
 # Universal Vintage Computer Power Supply
-Idea for a "universal" power supply, either internal external, for different systems.<br>
+Idea for a "universal" power supply, either internal external, for different systems that require multiple input voltages (like 8080-based systems, or the BBC Model B).<br>
 
 It's nothing groundbreaking, unique or even clever - it just uses off-the-shelf integrated components to generate the additional voltages.<br>
 
