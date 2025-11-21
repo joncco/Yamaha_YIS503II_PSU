@@ -3,9 +3,9 @@ Idea for a "universal" power supply, either internal external, for different sys
 
 It's nothing groundbreaking, unique or even clever - it just uses off-the-shelf integrated components to generate the additional voltages.<br>
 
-Expects regulated +12VDC input (rated at 5A).<br>
+Expects regulated +12VDC input (rated at ≥5A).<br>
 
-Passes through the +12VDC (max. 400mA) and additionally outputs:
+Passes through the +12VDC (≥400mA depending on input supply) and additionally outputs:
 - Regulated +5VDC (max. 4A)
 - Regulated -12VDC (max. 80mA)
 - Regulated -5VDC (max. 500mA)
