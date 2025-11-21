@@ -5919,7 +5919,7 @@
 				)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "100µF"
 			(at 177.546 98.806 90)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 176.53 99.3648 0)
 			(effects
 				(font
