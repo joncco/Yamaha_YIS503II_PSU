@@ -151,22 +151,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "PS"
-				(at 21.59 7.62 0)
+			(property "Reference" "U2"
+				(at 21.59 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Value" "NKE1212SC"
-				(at 21.59 5.08 0)
+				(at 21.59 -5.0799 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Clueless_Engineer:NKE1212SC"
@@ -190,7 +190,7 @@
 				)
 			)
 			(property "Description" "Murata Power Solutions NKE 1W Isolated DC-DC Converter Through Hole, Voltage in 10.8  13.2 V dc, Voltage out"
-				(at 0 0 0)
+				(at -27.94 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -263,24 +263,6 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
 					(name "+VIN"
 						(effects
 							(font
@@ -297,16 +279,34 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "-VOUT"
+					(name "-VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,14 +317,14 @@
 				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "+VOUT"
+					(name "-VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1105,24 +1105,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "J2"
+				(at 2.54 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Power Output"
+				(at 2.54 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Clueless_Engineer:640445-5"
+				(at 20.32 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1140,7 +1142,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1236,14 +1238,14 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1272,24 +1274,6 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
 					(name "Pin_4"
 						(effects
 							(font
@@ -1306,7 +1290,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1316,6 +1300,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2055,9 +2057,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "If -12V  is not rquired, exclude:\nU2 MURATA NKE1212SC\nL1 58µF inductor\nC1 470nF capacitor\nC7 100nF capacitor\n\nIf -5V is not required, exclude:\nU3 RECOM R-78CK5.0-0.5\nC3 10µF capacitor"
+	(text_box "If -12V  is not required, exclude:\nU2 MURATA NKE1212SC\nL1 58µF inductor\nC1 470nF capacitor\nC7 100nF capacitor\n\nIf -5V is not required, exclude:\nU3 RECOM R-78CK5.0-0.5\nC3 10µF capacitor"
 		(exclude_from_sim no)
-		(at 107.95 64.77 0)
+		(at 106.68 72.39 0)
 		(size 35.56 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2097,8 +2099,8 @@
 	)
 	(text_box "Max. output current if using +12V 5A power supply:\n+5V  ... 4A\n-5V  ... 500ma\n+12V ... 400mA\n-12V ... 80ma\n"
 		(exclude_from_sim no)
-		(at 110.49 153.67 0)
-		(size 53.34 12.7)
+		(at 115.57 153.67 0)
+		(size 54.61 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2117,7 +2119,7 @@
 	)
 	(text_box "Power Input\nUse a well-regulated ≥5A +12VDC power supply.\nExpects centre-postive polarity.\nMOSFET Q1 will block in case centre-negative is used.\nIf not required, bridge pins 2 (drain) and 3 (source)."
 		(exclude_from_sim no)
-		(at 25.4 50.8 0)
+		(at 36.83 50.8 0)
 		(size 57.15 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2157,7 +2159,7 @@
 	)
 	(text_box "M3 mount points are offset 42mm vertically & 62mm horizontally."
 		(exclude_from_sim no)
-		(at 223.52 105.41 0)
+		(at 227.33 120.65 0)
 		(size 31.75 31.75)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2195,6 +2197,26 @@
 		)
 		(uuid "99211279-040d-4790-be4a-feb7a8c8ec1d")
 	)
+	(text_box "+12VDC is passed through from the input power supply."
+		(exclude_from_sim no)
+		(at 245.11 77.47 0)
+		(size 31.75 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a33b8477-1522-42d1-83cb-59b836308d3f")
+	)
 	(text_box "+12VDC to -5VDC\nDC-DC Converter"
 		(exclude_from_sim no)
 		(at 162.56 120.65 0)
@@ -2216,6 +2238,12 @@
 		(uuid "d610f966-2d02-41e2-88fc-448c6111a0aa")
 	)
 	(junction
+		(at 231.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08d4f983-90bb-4ebe-b4f0-b53d5b9f45ec")
+	)
+	(junction
 		(at 66.04 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2226,6 +2254,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09fc613d-f49b-4ce3-a59a-d6b869d6b7e6")
+	)
+	(junction
+		(at 115.57 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a6826d4-5d39-4186-a4b0-349a6cf7167c")
+	)
+	(junction
+		(at 234.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd1b7b4-8184-447d-841c-7a1f5d093b6f")
 	)
 	(junction
 		(at 187.96 93.98)
@@ -2240,10 +2280,10 @@
 		(uuid "273015c0-3b51-4ba9-bec5-1b55449af0e2")
 	)
 	(junction
-		(at 234.95 91.44)
+		(at 157.48 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34409d83-d941-4435-b10d-7e7cbef86998")
+		(uuid "28d8b9d0-415b-40fd-9e6b-4b30556c405e")
 	)
 	(junction
 		(at 157.48 100.33)
@@ -2256,12 +2296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66c976d0-3400-4eac-9ca1-47a525655e04")
-	)
-	(junction
-		(at 227.33 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a9c83fb-4609-4ea0-bb35-d5bb97bc47b7")
 	)
 	(junction
 		(at 242.57 96.52)
@@ -2288,6 +2322,12 @@
 		(uuid "7ce78b2c-90a5-46ec-9e32-f271c918fd3e")
 	)
 	(junction
+		(at 227.33 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddbaa82-70e3-4a1b-b4b1-e901c515f5ac")
+	)
+	(junction
 		(at 187.96 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2306,22 +2346,10 @@
 		(uuid "8f261c3b-26fc-4be8-bb3a-d4f5cb783ba4")
 	)
 	(junction
-		(at 66.04 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "950dd0cb-075c-45a0-b334-4b7218721914")
-	)
-	(junction
 		(at 198.12 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ca0fd58-9c74-47eb-a909-a4588d8a48ab")
-	)
-	(junction
-		(at 157.48 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba5bbf80-f2f5-4409-9584-13443fce2eaa")
 	)
 	(junction
 		(at 78.74 114.3)
@@ -2334,12 +2362,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc998199-e641-4307-950f-28fcd037d377")
-	)
-	(junction
-		(at 231.14 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3b7be17-d242-4928-91ba-db9e813db057")
 	)
 	(junction
 		(at 66.04 97.79)
@@ -2360,6 +2382,12 @@
 		(uuid "d3a32ac3-7d89-4421-b67b-ff25324c963e")
 	)
 	(junction
+		(at 66.04 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4188c04-5ab0-43f8-b883-a3fcf5829886")
+	)
+	(junction
 		(at 157.48 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2377,11 +2405,15 @@
 		(color 0 0 0 0)
 		(uuid "eead1948-d71b-4a1e-b69a-30104c42494c")
 	)
-	(junction
-		(at 66.04 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef4f951d-b343-405d-b71c-2dd93591d262")
+	(wire
+		(pts
+			(xy 212.09 99.06) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01955fc1-d95a-4800-86ad-5b1254c131c6")
 	)
 	(wire
 		(pts
@@ -2395,13 +2427,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 127) (xy 66.04 140.97)
+			(xy 78.74 119.38) (xy 115.57 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b5c8d51-ef7d-485e-b43a-ad0dc4e69292")
+		(uuid "0cf2104b-597d-4c26-a633-2f102250a195")
 	)
 	(wire
 		(pts
@@ -2425,7 +2457,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 114.3) (xy 78.74 121.92)
+			(xy 231.14 91.44) (xy 252.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123a533e-ca72-41f8-85d9-5e057c67386b")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2475,33 +2517,43 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 77.47) (xy 231.14 88.9)
+			(xy 234.95 88.9) (xy 252.73 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25d00068-930b-4ce3-8865-e58ec24638b4")
+		(uuid "22451a13-df63-4009-a961-835c12e69463")
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 231.14 88.9)
+			(xy 66.04 123.19) (xy 115.57 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26447d86-4cad-4f56-9cdb-137b36c93c38")
+		(uuid "246fa46a-93a1-4557-8837-54bfa583edb0")
 	)
 	(wire
 		(pts
-			(xy 234.95 91.44) (xy 252.73 91.44)
+			(xy 157.48 82.55) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2abecf07-c11a-4194-91ed-7aec01380601")
+		(uuid "24d7227f-aedc-4d3c-882e-d900333795d4")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9b1210-834a-409a-bb4c-74729dabd156")
 	)
 	(wire
 		(pts
@@ -2525,16 +2577,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 72.39) (xy 234.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7930f7-02f9-4766-a34b-e199bbedcb24")
-	)
-	(wire
-		(pts
 			(xy 157.48 100.33) (xy 157.48 129.54)
 		)
 		(stroke
@@ -2545,17 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 252.73 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46836ae5-0551-42ff-a764-13d5292ac7ec")
-	)
-	(wire
-		(pts
-			(xy 88.9 140.97) (xy 213.36 140.97)
+			(xy 88.9 140.97) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2582,16 +2614,6 @@
 			(type default)
 		)
 		(uuid "512669c0-845e-464c-bd6a-9cbb0cb54e54")
-	)
-	(wire
-		(pts
-			(xy 213.36 86.36) (xy 213.36 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f43139-1be9-48cb-af9b-cc5b1415796e")
 	)
 	(wire
 		(pts
@@ -2645,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 123.19) (xy 66.04 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb3b376-c202-4238-9065-93ecb59cf020")
+	)
+	(wire
+		(pts
 			(xy 172.72 93.98) (xy 187.96 93.98)
 		)
 		(stroke
@@ -2685,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 208.28 91.44)
+			(xy 208.28 83.82) (xy 208.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2715,13 +2747,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 127) (xy 115.57 127)
+			(xy 212.09 99.06) (xy 227.33 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7599f920-82ea-4ea9-937a-178259c2cbd0")
+		(uuid "72c98717-9de8-4f9e-8a2a-c0895c955eb1")
 	)
 	(wire
 		(pts
@@ -2745,26 +2777,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 91.44) (xy 234.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80416cec-0a1a-4933-89ea-f3ac86d49291")
-	)
-	(wire
-		(pts
-			(xy 78.74 121.92) (xy 115.57 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80793046-8467-4274-878e-b23b8ff1066f")
-	)
-	(wire
-		(pts
 			(xy 172.72 77.47) (xy 172.72 82.55)
 		)
 		(stroke
@@ -2772,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "8096600c-47cd-4eea-91da-2fdb23a8170e")
+	)
+	(wire
+		(pts
+			(xy 227.33 99.06) (xy 252.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81be6a89-c640-40f8-b87b-508eee58042c")
 	)
 	(wire
 		(pts
@@ -2785,23 +2807,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 157.48 100.33)
+			(xy 157.48 91.44) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8323c133-b889-4e29-8e3e-26931901be0d")
-	)
-	(wire
-		(pts
-			(xy 88.9 124.46) (xy 115.57 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bbe5db0-b393-4334-aa51-6144c0898df0")
+		(uuid "84da6c3d-a97a-4d0f-a037-dc52b7a1550d")
 	)
 	(wire
 		(pts
@@ -2812,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "8c0f421b-fca4-4933-a620-8aede9845fed")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8e374b-73be-484b-bb9f-4453de769b33")
 	)
 	(wire
 		(pts
@@ -2845,16 +2867,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 83.82) (xy 227.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e322aec-2559-4697-ab0d-2b4847dc89ae")
-	)
-	(wire
-		(pts
 			(xy 78.74 97.79) (xy 78.74 114.3)
 		)
 		(stroke
@@ -2872,16 +2884,6 @@
 			(type default)
 		)
 		(uuid "9f44f36c-4571-4163-850b-394570a4d6a2")
-	)
-	(wire
-		(pts
-			(xy 66.04 114.3) (xy 66.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70e962a-b6ca-4184-b09c-0fd620f5a006")
 	)
 	(wire
 		(pts
@@ -2905,7 +2907,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 142.24 88.9)
+			(xy 234.95 72.39) (xy 234.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afacd9db-94f9-4207-8fbc-b472ae5c1401")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 148.59 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2955,6 +2967,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 88.9) (xy 234.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02a63aa-e370-4d13-8c7c-022c58ca3c20")
+	)
+	(wire
+		(pts
+			(xy 115.57 121.92) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1972b70-0785-42a4-ba5a-1a95113ee8ef")
+	)
+	(wire
+		(pts
 			(xy 176.53 100.33) (xy 187.96 100.33)
 		)
 		(stroke
@@ -2995,26 +3027,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 66.04 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf747d6-16de-467c-bea1-9b88d6de94ac")
-	)
-	(wire
-		(pts
-			(xy 88.9 124.46) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb976870-2b6f-42dc-ac2d-088fe46131d8")
-	)
-	(wire
-		(pts
 			(xy 208.28 77.47) (xy 208.28 67.31)
 		)
 		(stroke
@@ -3035,13 +3047,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 157.48 88.9)
+			(xy 115.57 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d29dbabb-2e8e-4bc8-9269-6ff27c2802aa")
+		(uuid "d43cae24-529e-4f86-ac81-78394d58beab")
 	)
 	(wire
 		(pts
@@ -3055,13 +3067,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 115.57 119.38)
+			(xy 88.9 127) (xy 88.9 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da043230-cf9b-4fb1-b736-6940f49184e4")
+		(uuid "d7bc544d-7d96-472d-9b33-367ad626222a")
 	)
 	(wire
 		(pts
@@ -3075,13 +3087,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 86.36) (xy 227.33 86.36)
+			(xy 157.48 91.44) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbca9652-925c-437d-bf7f-4b9df0635ab7")
+		(uuid "df53e63d-402b-45cc-9392-7bb5ab8a22c2")
 	)
 	(wire
 		(pts
@@ -3095,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 142.24 97.79)
+			(xy 78.74 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3122,6 +3134,16 @@
 			(type default)
 		)
 		(uuid "e63203fd-5947-4263-b460-b5c4133cbdf9")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88df788-8aed-4fe8-8567-af5d3003dbd7")
 	)
 	(wire
 		(pts
@@ -3155,23 +3177,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 157.48 88.9)
+			(xy 148.59 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f72d9e64-e560-441e-b9c6-e0dc2a16699a")
-	)
-	(wire
-		(pts
-			(xy 227.33 86.36) (xy 252.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc449c2a-8791-4608-8290-d733da1b5017")
 	)
 	(wire
 		(pts
@@ -3182,6 +3194,16 @@
 			(type default)
 		)
 		(uuid "fecbddb3-03a0-4894-a284-c57b74c7fd54")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff795e82-a7b8-4422-a4fa-6f0613998c39")
 	)
 	(table
 		(column_count 4)
@@ -3201,7 +3223,7 @@
 				(type solid)
 			)
 		)
-		(column_widths 8.89 20.32 10.16 41.91)
+		(column_widths 8.89 20.32 10.16 49.53)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
 			2.54 2.54
 		)
@@ -3266,7 +3288,7 @@
 			(table_cell "Notes"
 				(exclude_from_sim no)
 				(at 59.69 153.67 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3336,7 +3358,7 @@
 			(table_cell "Reverse polarity input protection"
 				(exclude_from_sim no)
 				(at 59.69 156.21 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3401,10 +3423,10 @@
 				)
 				(uuid "d699bdbf-95bd-4b14-bdb7-904be6ec96ba")
 			)
-			(table_cell "+12V to +5V regulator"
+			(table_cell "+12V to +5V converter"
 				(exclude_from_sim no)
 				(at 59.69 158.75 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3469,10 +3491,10 @@
 				)
 				(uuid "8a453ec8-18ba-4797-9f5d-eb75da84710d")
 			)
-			(table_cell "+12V to -12V regulator"
+			(table_cell "+12V to -12V converter"
 				(exclude_from_sim no)
 				(at 59.69 161.29 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3537,10 +3559,10 @@
 				)
 				(uuid "99154a70-5eb5-45c7-bf6d-69cb276c92fb")
 			)
-			(table_cell "+12V to -5V regulator"
+			(table_cell "+12V to -5V converter"
 				(exclude_from_sim no)
 				(at 59.69 163.83 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3608,7 +3630,7 @@
 			(table_cell "68µF inductor"
 				(exclude_from_sim no)
 				(at 59.69 166.37 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3676,7 +3698,7 @@
 			(table_cell "470nF MLCC capacitor, P5.0mm"
 				(exclude_from_sim no)
 				(at 59.69 168.91 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3741,10 +3763,10 @@
 				)
 				(uuid "8da32e9c-a901-4479-b8a9-365422fcd231")
 			)
-			(table_cell "10µF electrolytic capacitor, P2.5mm"
+			(table_cell "100µF electrolytic capacitor, P2.5mm, low ESR"
 				(exclude_from_sim no)
 				(at 59.69 171.45 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3809,10 +3831,10 @@
 				)
 				(uuid "ac736d14-33d9-465e-8b7a-3b8a738d2ee3")
 			)
-			(table_cell "10µF electrolytic capacitor, P5.0mm"
+			(table_cell "100µF electrolytic capacitor, P5.0mm, low ESR"
 				(exclude_from_sim no)
 				(at 59.69 173.99 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3877,10 +3899,10 @@
 				)
 				(uuid "64d1bb7c-ee77-4c5f-a78b-74ad25721347")
 			)
-			(table_cell "10µF electrolytic capacitor, P5.0mm"
+			(table_cell "100µF electrolytic capacitor, P5.0mm, low ESR"
 				(exclude_from_sim no)
 				(at 59.69 176.53 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3948,7 +3970,7 @@
 			(table_cell "10µF MLCC capacitor, P5.00"
 				(exclude_from_sim no)
 				(at 59.69 179.07 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4016,7 +4038,7 @@
 			(table_cell "100nF MLCC capacitor, P5.0mm"
 				(exclude_from_sim no)
 				(at 59.69 181.61 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4084,7 +4106,7 @@
 			(table_cell "100nF MLCC capacitor, P5.0mm"
 				(exclude_from_sim no)
 				(at 59.69 184.15 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4152,7 +4174,7 @@
 			(table_cell "12V (green) LED with in-built resistor"
 				(exclude_from_sim no)
 				(at 59.69 186.69 0)
-				(size 41.91 2.54)
+				(size 49.53 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4168,8 +4190,8 @@
 			)
 		)
 	)
-	(label "+12V_{OUT}"
-		(at 100.33 121.92 0)
+	(label "+12V_{IN}"
+		(at 100.33 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4178,17 +4200,7 @@
 		)
 		(uuid "09609c06-8c7c-4686-a4c7-2fc3b464fc97")
 	)
-	(label "GND"
-		(at 101.6 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c26958d-b551-4b0f-b936-2c0871de1e4d")
-	)
-	(label "+5V_{OUT}"
+	(label "+12V_{IN}"
 		(at 215.9 91.44 0)
 		(effects
 			(font
@@ -4196,17 +4208,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "40184440-b124-469d-94fc-9ad5c15ae849")
+		(uuid "5a3fe933-f2d0-49d5-b460-93aebe5cfb3a")
 	)
 	(label "-12V_{OUT}"
-		(at 215.9 86.36 0)
+		(at 215.9 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "45d80dca-ca38-4957-90a7-ada27f1fcf65")
+		(uuid "5b44a02c-2105-4118-95ea-a648d9f9a920")
 	)
 	(label "+5V_{OUT}"
 		(at 199.39 67.31 0)
@@ -4227,6 +4239,16 @@
 			(justify right bottom)
 		)
 		(uuid "62f80193-21ec-4fdc-a52f-b96005cd3b3a")
+	)
+	(label "+5V_{OUT}"
+		(at 215.9 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bf860ae-7ec6-426c-8c2e-eb06cccd3a74")
 	)
 	(label "GND"
 		(at 217.17 93.98 0)
@@ -4249,7 +4271,7 @@
 		(uuid "793cb8bf-fe29-42ab-8fc0-ae2aecffec7d")
 	)
 	(label "GND"
-		(at 101.6 119.38 0)
+		(at 101.6 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4279,7 +4301,7 @@
 		(uuid "9968cd8b-4228-45e4-908d-c5cd9b847772")
 	)
 	(label "-12V"
-		(at 100.33 124.46 0)
+		(at 100.33 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,7 +4310,7 @@
 		)
 		(uuid "a762fc0a-5514-4290-8094-3ab6c438a8c8")
 	)
-	(label "+12V_{OUT}"
+	(label "+12V_{IN}"
 		(at 187.96 120.65 0)
 		(effects
 			(font
@@ -4298,7 +4320,7 @@
 		)
 		(uuid "ab10c4bc-6021-4c5e-a126-2ef9cfad02af")
 	)
-	(label "+12V_{IN}"
+	(label "+12V_{SUPPLY}"
 		(at 67.31 67.31 0)
 		(effects
 			(font
@@ -4308,7 +4330,7 @@
 		)
 		(uuid "bfc8bd59-c4a4-43d6-afdc-511ecb0a8e34")
 	)
-	(label "+12V_{OUT}"
+	(label "+12V_{IN}"
 		(at 93.98 97.79 0)
 		(effects
 			(font
@@ -4318,7 +4340,7 @@
 		)
 		(uuid "d3de0da0-5137-47c7-8add-e9ae061b0d37")
 	)
-	(label "+12V_{OUT}"
+	(label "+12V_{IN}"
 		(at 162.56 67.31 0)
 		(effects
 			(font
@@ -4327,16 +4349,6 @@
 			(justify left bottom)
 		)
 		(uuid "ddb9b2c5-eefd-4bcc-91b7-b596cc5efe0f")
-	)
-	(label "+12V_{OUT}"
-		(at 215.9 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df6b2cf8-92bd-4d39-b255-202207477bc6")
 	)
 	(label "GND"
 		(at 95.25 104.14 0)
@@ -4493,7 +4505,7 @@
 			)
 		)
 		(property "Description" "Murata Power Solutions NKE 1W Isolated DC-DC Converter Through Hole, Voltage in 10.8  13.2 V dc, Voltage out"
-			(at 115.57 119.38 0)
+			(at 87.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,7 +4920,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 128.27 0)
+		(at 234.95 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4917,7 +4929,7 @@
 		(fields_autoplaced yes)
 		(uuid "23c13224-8c13-473b-a684-2b9ebec09a89")
 		(property "Reference" "H3"
-			(at 233.68 126.9999 0)
+			(at 237.49 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4938,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 129.5399 0)
+			(at 237.49 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 231.14 128.27 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 128.27 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4965,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 128.27 0)
+			(at 234.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5052,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 123.19 0)
+		(at 234.95 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5049,7 +5061,7 @@
 		(fields_autoplaced yes)
 		(uuid "3df300ae-5427-4775-9743-7428d3a8dead")
 		(property "Reference" "H2"
-			(at 233.68 121.9199 0)
+			(at 237.49 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5070,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 124.4599 0)
+			(at 237.49 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 231.14 123.19 0)
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 123.19 0)
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5097,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 123.19 0)
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5381,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 133.35 0)
+		(at 234.95 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5378,7 +5390,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa17752c-bacf-46ff-87e8-698cbb2f548c")
 		(property "Reference" "H4"
-			(at 233.68 132.0799 0)
+			(at 237.49 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5399,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 134.6199 0)
+			(at 237.49 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 231.14 133.35 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 133.35 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5426,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 133.35 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5771,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 227.33 83.82 0)
+		(at 227.33 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5767,7 +5779,7 @@
 		(dnp no)
 		(uuid "da8ed431-d73e-40d1-97ae-41a5c783462b")
 		(property "Reference" "TP1"
-			(at 221.234 77.978 0)
+			(at 221.234 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5788,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 221.234 80.518 0)
+			(at 221.234 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 232.41 83.82 0)
+			(at 232.41 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 83.82 0)
+			(at 232.41 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5815,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 227.33 83.82 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5827,7 @@
 			(uuid "91d87938-d885-4ea6-adbe-c4cba489141c")
 		)
 		(instances
-			(project ""
+			(project "Universal_Modern_PSU_12V_Input"
 				(path "/2243e882-c373-463b-80e4-1df760d60a2a"
 					(reference "TP1")
 					(unit 1)
@@ -5825,7 +5837,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 257.81 91.44 0)
+		(at 257.81 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5834,15 +5846,6 @@
 		(fields_autoplaced yes)
 		(uuid "da949b10-103d-4581-82b9-458049fdacc3")
 		(property "Reference" "J2"
-			(at 260.35 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power Output"
 			(at 260.35 92.7099 0)
 			(effects
 				(font
@@ -5851,8 +5854,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Power Output"
+			(at 260.35 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Clueless_Engineer:640445-5"
-			(at 257.81 91.44 0)
+			(at 278.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 91.44 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5882,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 257.81 91.44 0)
+			(at 257.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5906,7 @@
 			(uuid "41bd0b01-2c6c-46cd-aa39-df6845f1c21b")
 		)
 		(instances
-			(project ""
+			(project "Universal_Modern_PSU_12V_Input"
 				(path "/2243e882-c373-463b-80e4-1df760d60a2a"
 					(reference "J2")
 					(unit 1)
@@ -6048,7 +6060,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 118.11 0)
+		(at 234.95 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6057,7 +6069,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5dd36e8-8060-46e2-b680-92875264ce48")
 		(property "Reference" "H1"
-			(at 233.68 116.8399 0)
+			(at 237.49 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6078,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 119.3799 0)
+			(at 237.49 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6087,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 231.14 118.11 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 118.11 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6105,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 118.11 0)
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
