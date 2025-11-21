@@ -17,3 +17,12 @@ Prevents reverse-polarity source input with a MOSFET (can be excluded if not req
 The PCB measures 70x50mm and has M3 mounting holes in the corners (offset 42 & 62mm).<br>
 
 ![3D image of PCB](/Universal_Modern_PSU_3D.png)
+
+## [Data Sheets](/Datasheets)
+Relevant data sheets to save you hunting around for the parts or trying to figure out replacements.
+
+## [KiCad & Fabrication Files](/Universal_Modern_PSU)
+KiCad 9 design files plus fabrication (Gerber) files
+
+## Status
+21-Nov-2025: Still tweaking the design before getting test boards made - current design should work but would like to improve further if possible
