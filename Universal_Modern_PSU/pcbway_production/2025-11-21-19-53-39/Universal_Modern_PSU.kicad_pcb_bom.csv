@@ -1,11 +1,19 @@
 ﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Pins,Height,Mouser Part Number,Mouser Price/Stock,Manufacturer_Name
 C1,1,470nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
-"C2, C3, C4",3,10µF,C_Radial_D6.3mm_H7.0mm_P2.50mm,,,,tht,Polarized capacitor,,,,,
+C2,1,10µF,C_Radial_D6.3mm_H7.0mm_P2.50mm,,,,tht,Polarized capacitor,,,,,
+"C3, C4",2,100µF,CP_Radial_D8.0mm_P5.00mm,,,,tht,Polarized capacitor,,,,,
+C5,1,10µF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
+"C6, C7",2,100nF,C_Disc_D5.0mm_W2.5mm_P5.00mm,,,,tht,Unpolarized capacitor,,,,,
 D1,1,On,PinHeader_1x02_P2.54mm_Vertical,,,,tht,Light emitting diode,1=K 2=A,,,,
 J1,1,+12VDC Input,6404452,,,,tht,DC Barrel Jack,,,,,
 J2,1,Power Output,640445-5,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",,,,,
 L1,1,68µH,22R683C,,,,tht,Inductor,,,,,
 Q1,1,SUP53P06-20-E3,TO254P465X1028X1931-3P,,SUP53P06-20-E3,,tht,"VISHAY - SUP53P06-20-E3 - MOSFET, P, TO-220",,4.65,781-SUP53P06-20-E3,https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SUP53P06-20-E3?qs=ru2xu5lizsADXHLEpSNjJA%3D%3D,Vishay
+TP1,1,-12V,TestPoint_Pad_D2.5mm,,,,tht,test point,,,,,
+TP2,1,+12V,TestPoint_Pad_D2.5mm,,,,tht,test point,,,,,
+TP3,1,+5V,TestPoint_Pad_D2.5mm,,,,tht,test point,,,,,
+TP4,1,GND,TestPoint_Pad_D2.5mm,,,,tht,test point,,,,,
+TP5,1,-5V,TestPoint_Pad_D2.5mm,,,,tht,test point,,,,,
 U1,1,DFR0831,DFR0831,,,,tht,DFRobot DC-DC Buck Converter,,,,,
 U2,1,NKE1212SC,NKE1212SC,,NKE1212SC,,tht,"Murata Power Solutions NKE 1W Isolated DC-DC Converter Through Hole, Voltage in 10.8  13.2 V dc, Voltage out",,7.71,,,Murata Electronics
 U3,1,R-78CK5.0-0.5,R78CK5005,,R-78CK5.0-0.5,,tht,0.5A DC/DC-Converter \'INNOLINE\' SIP3 reg,,10.7,,,RECOM Power
