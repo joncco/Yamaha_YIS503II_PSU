@@ -5,3 +5,5 @@ Universal_Modern_PSU/pcbway_production/.DS_Store
 /Universal_Modern_PSU/Universal_Modern_PSU-backups
 *.kicad_prl
 .DS_Store
+Universal_Modern_PSU_12V_Input/fp-info-cache
+/Universal_Modern_PSU_12V_Input/Universal_Modern_PSU_12V_Input-backups
