@@ -16,7 +16,7 @@ Prevents reverse-polarity source input with a MOSFET (can be excluded if not req
 
 The PCB measures 70x50mm and has M3 mounting holes in the corners (offset 42 & 62mm).<br>
 
-![3D image of PCB](/Universal_Modern_PSU_3D.png)
+![3D image of PCB](/Universal_Modern_PSU_12V_Input_3D.png)
 
 ## [Data Sheets](/Datasheets)
 Relevant data sheets to save you hunting around for the parts or trying to figure out replacements.
