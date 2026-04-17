@@ -2714,10 +2714,22 @@
 		(uuid "0dd1b7b4-8184-447d-841c-7a1f5d093b6f")
 	)
 	(junction
+		(at 66.04 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e91de40-cd2b-4e2a-a4d3-c5ef008a03a4")
+	)
+	(junction
 		(at 187.96 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171e6765-4f64-464c-91fe-452521fb29d4")
+	)
+	(junction
+		(at 78.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26781825-de2d-4aa0-9ead-ba22e4ee0fa6")
 	)
 	(junction
 		(at 187.96 100.33)
@@ -2756,6 +2768,12 @@
 		(uuid "6dbb4bf7-f209-4378-9b9b-56429fb7ef49")
 	)
 	(junction
+		(at 104.14 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ddff931-8ea1-4f5d-834a-35efa0dfdb4e")
+	)
+	(junction
 		(at 78.74 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2765,7 +2783,7 @@
 		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7538224c-a9f5-4c3d-b9f6-b96fe644a4d8")
+		(uuid "718f59a9-f4cc-49ed-b2f3-131f4d4236a3")
 	)
 	(junction
 		(at 198.12 93.98)
@@ -2790,12 +2808,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80439fc6-96d8-4bc6-b110-36d08c0208f9")
-	)
-	(junction
-		(at 104.14 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8607b726-4082-462f-8ed7-1aaa394d9827")
 	)
 	(junction
 		(at 172.72 82.55)
@@ -2875,16 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 104.14 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0579fe8d-25c1-4e34-a51e-b69700cabc09")
-	)
-	(wire
-		(pts
 			(xy 198.12 77.47) (xy 198.12 83.82)
 		)
 		(stroke
@@ -2955,6 +2957,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 77.47) (xy 71.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b5c149-86bd-4a0a-b67d-252d2f21b190")
+	)
+	(wire
+		(pts
 			(xy 207.01 77.47) (xy 208.28 77.47)
 		)
 		(stroke
@@ -2972,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "21fa7d64-58b2-4f1b-bf39-6a17cf76b861")
-	)
-	(wire
-		(pts
-			(xy 78.74 82.55) (xy 78.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2239c5e8-d5d2-4db3-8aaf-ddd9250a047f")
 	)
 	(wire
 		(pts
@@ -3012,6 +3014,16 @@
 			(type default)
 		)
 		(uuid "24d7227f-aedc-4d3c-882e-d900333795d4")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2540e1bb-0235-4288-8ecc-9552140e8be4")
 	)
 	(wire
 		(pts
@@ -3082,6 +3094,16 @@
 			(type default)
 		)
 		(uuid "512669c0-845e-464c-bd6a-9cbb0cb54e54")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f6e376-5307-44d3-be8d-e763e6edc9c7")
 	)
 	(wire
 		(pts
@@ -3165,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 77.47) (xy 104.14 77.47)
+			(xy 86.36 92.71) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 92.71 67.31)
+			(xy 78.74 82.55) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 77.47) (xy 104.14 67.31)
+			(xy 104.14 92.71) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 104.14 67.31)
+			(xy 100.33 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3542,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "c8a02e28-cec3-4fe6-8681-5f9cf64d49b2")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb12be8a-c423-404d-9c56-355ddee795ab")
 	)
 	(wire
 		(pts
@@ -3625,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 72.39) (xy 66.04 97.79)
+			(xy 66.04 72.39) (xy 66.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5404,7 +5436,7 @@
 	)
 	(symbol
 		(lib_id "Clueless_Engineer:SUP53P06-20-E3")
-		(at 86.36 77.47 0)
+		(at 86.36 92.71 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5414,8 +5446,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22d01997-1523-49a4-baae-7d684b997533")
-		(property "Reference" "Q1"
-			(at 86.614 70.612 0)
+		(property "Reference" "Q2"
+			(at 86.614 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5426,7 +5458,7 @@
 			)
 		)
 		(property "Value" "SUP53P06-20-E3"
-			(at 101.854 72.898 0)
+			(at 101.854 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5437,7 +5469,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:TO254P465X1028X1931-3P"
-			(at 74.93 176.2 0)
+			(at 74.93 191.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5481,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA24/1593239.pdf"
-			(at 74.93 276.2 0)
+			(at 74.93 291.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5493,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SUP53P06-20-E3 - MOSFET, P, TO-220"
-			(at 86.36 77.47 0)
+			(at 86.36 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5504,7 @@
 			)
 		)
 		(property "Height" "4.65"
-			(at 74.93 476.2 0)
+			(at 74.93 491.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +5516,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SUP53P06-20-E3"
-			(at 74.93 576.2 0)
+			(at 74.93 591.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5528,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SUP53P06-20-E3?qs=ru2xu5lizsADXHLEpSNjJA%3D%3D"
-			(at 74.93 676.2 0)
+			(at 74.93 691.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5540,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 74.93 776.2 0)
+			(at 74.93 791.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5552,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SUP53P06-20-E3"
-			(at 74.93 876.2 0)
+			(at 74.93 891.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,7 +5575,7 @@
 		(instances
 			(project "Universal_Modern_PSU_12V_Input"
 				(path "/2243e882-c373-463b-80e4-1df760d60a2a"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5859,8 +5891,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Clueless_Engineer:SUP53P06-20-E3")
+		(at 71.12 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4aecc89f-47db-4fca-a702-ce3ebd5640f2")
+		(property "Reference" "Q1"
+			(at 81.788 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SUP53P06-20-E3"
+			(at 81.788 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:TO254P465X1028X1931-3P"
+			(at 82.55 176.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA24/1593239.pdf"
+			(at 82.55 276.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "VISHAY - SUP53P06-20-E3 - MOSFET, P, TO-220"
+			(at 71.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.65"
+			(at 82.55 476.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "781-SUP53P06-20-E3"
+			(at 82.55 576.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SUP53P06-20-E3?qs=ru2xu5lizsADXHLEpSNjJA%3D%3D"
+			(at 82.55 676.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 82.55 776.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SUP53P06-20-E3"
+			(at 82.55 876.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "2a64050a-fdd2-4aeb-b831-b72cb99345e7")
+		)
+		(pin "3"
+			(uuid "35870e3d-3968-4aaf-9729-5e5096e21f70")
+		)
+		(pin "1"
+			(uuid "3b108904-2676-487e-be70-53f4c78904bd")
+		)
+		(instances
+			(project "Universal_Modern_PSU_12V_Input"
+				(path "/2243e882-c373-463b-80e4-1df760d60a2a"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 96.52 67.31 90)
+		(at 96.52 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5871,7 +6049,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e8a3a43-54f4-49a5-90a4-a2f65eac745b")
 		(property "Reference" "R1"
-			(at 96.52 60.96 90)
+			(at 96.52 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5881,7 +6059,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 96.52 63.5 90)
+			(at 96.52 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5891,7 +6069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 69.088 90)
+			(at 96.52 84.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5902,7 +6080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 67.31 0)
+			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,7 +6091,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 67.31 0)
+			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
