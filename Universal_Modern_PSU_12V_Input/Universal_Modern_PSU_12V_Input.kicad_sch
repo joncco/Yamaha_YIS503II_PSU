@@ -4825,6 +4825,16 @@
 		)
 		(uuid "793cb8bf-fe29-42ab-8fc0-ae2aecffec7d")
 	)
+	(label "PS_ON_{IN}"
+		(at 106.68 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b4f3b9d-e94c-4ea8-99d6-31268bed6480")
+	)
 	(label "GND"
 		(at 101.6 123.19 0)
 		(effects
@@ -4884,6 +4894,16 @@
 			(justify left bottom)
 		)
 		(uuid "bfc8bd59-c4a4-43d6-afdc-511ecb0a8e34")
+	)
+	(label "PS_ON_{IN}"
+		(at 215.9 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8592fbf-22ed-402b-a81c-f181346cf38d")
 	)
 	(label "+12V_{IN}"
 		(at 93.98 97.79 0)
