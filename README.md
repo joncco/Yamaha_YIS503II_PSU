@@ -21,7 +21,7 @@ The PCB measures 70x50mm and has M3 mounting holes in the corners (offset 42 & 6
 ## [Data Sheets](/Datasheets)
 Relevant data sheets to save you hunting around for the parts or trying to figure out replacements.
 
-## [KiCad & Fabrication Files](/Universal_Modern_PSU)
+## [KiCad & Fabrication Files](/Universal_Modern_PSU_12V_Input)
 KiCad 10 design files plus fabrication (Gerber) files
 
 ## Status
